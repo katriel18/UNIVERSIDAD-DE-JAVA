@@ -39,12 +39,12 @@ public class TiposPrimitivos {
         System.out.println("Bits: "+Integer.SIZE);
         System.out.println("Tipo: "+Integer.TYPE);
         
-        
+        //errores
         //superar el tipo entero de la literal por defecto
         //por defecto es entero
         //int num=948594754975454;//error de literal por defecto
         //int num=948594754975454L;//error de conversion
-        int num=(int)948594754975454L;
+        int numInt=(int)948594754975454L;
         
         //long///////////////////////////////////////////
         System.out.println("long:");
@@ -53,6 +53,15 @@ public class TiposPrimitivos {
         System.out.println("Maximo valor: "+Long.MAX_VALUE);
         System.out.println("Bits: "+Long.SIZE);
         System.out.println("Tipo: "+Long.TYPE);
+        
+        //errores
+        //long numLong=9348938493;//error de literal int por defectto
+        long numLong=9348938493L;
+        System.out.println("numLong = " + numLong);
+        
+        //long numLong2=92233720368547758071L;//excede los 64 bits la literal
+        //long numLong2=(long)92233720368547758071L;//excede los 64 bits la literal
+        
     }
 
 }
