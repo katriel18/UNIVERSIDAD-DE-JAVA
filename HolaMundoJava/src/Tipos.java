@@ -1,5 +1,5 @@
 
-public class HolaMundo {
+public class Tipos {
     public static void main(String args[]){
         //definicion de la variable
         int variableEntera=20;
