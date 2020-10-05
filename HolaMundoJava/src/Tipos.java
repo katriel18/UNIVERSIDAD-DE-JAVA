@@ -21,5 +21,16 @@ public class Tipos {
         var variableGeneral2="dos";
         System.out.println("variableGeneral2 = " + variableGeneral2);//coutv + space
          
+        
+        
+        //////////////////////errores///////////////////////////
+        
+        String color;
+        //no se ha asignado aún un valor a la variable y el compilador manda el error:
+        //System.out.println("color = " + color);
+        
+        
+        //var variableGeneral2;//debe inicalizarse un tipo var al crearse
+        
     }
 }
