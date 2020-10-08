@@ -4,7 +4,7 @@ public class OperadoresAsignacion {
         
         int a=3,b=2;
         
-        int c=a+5-b;
+        int c=a+5-b;//izquierda->derecha
         
         System.out.println("c = " + c);
         
