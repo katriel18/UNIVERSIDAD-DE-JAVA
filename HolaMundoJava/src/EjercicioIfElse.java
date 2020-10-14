@@ -9,5 +9,5 @@ public class EjercicioIfElse {
             texto = "dos" ;
         }
         System.out.println("texto = " + texto);
-    } 
+    }           
 }
