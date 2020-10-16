@@ -2,9 +2,21 @@
 package operaciones;
 
 public class Aritmetica {
+    
     //atributos
     int a;
     int b;
+    
+    //constructor
+    public Aritmetica(){
+        System.out.println("Ejecutadno constructor");
+    }
+    public Aritmetica(int a,int b){//no esta permitido usar 'var'
+        this.a=a;
+        this.b=b;
+        System.out.println("Ejecutando constructor con argumentos");
+    }
+
     //metodos
     public void sumar(){
         int resultado=a+b;
