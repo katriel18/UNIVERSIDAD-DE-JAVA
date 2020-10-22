@@ -1,6 +1,6 @@
 package disenodeclases.test;
 
-import mx.com.gm.ventas.*;
+import disenodeclases.ventas.*;
 
 public class VentasTest {
     public static void main(String[] args) {

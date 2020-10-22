@@ -1,4 +1,4 @@
-package mx.com.gm.ventas;
+package disenodeclases.ventas;
 
 public class Producto {
     private final int idProducto;
