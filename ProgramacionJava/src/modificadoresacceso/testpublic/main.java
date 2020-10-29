@@ -1,5 +1,5 @@
 
-package testpublic;
+package modificadoresacceso.testpublic;
 
 import modificadoresacceso.paquetepublic.Clase1;
 
