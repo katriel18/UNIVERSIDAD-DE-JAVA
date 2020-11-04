@@ -20,9 +20,11 @@ public class Test {
 
         if (empleado instanceof Gerente) {
             System.out.println("Tipo Gerente");
-        } else if (empleado instanceof Empleado) {
+        }
+        if (empleado instanceof Empleado) {
             System.out.println("Tipo Empleado");
-        } else if (empleado instanceof Object) {
+        }
+        if (empleado instanceof Object) {
             System.out.println("Tipo Object");
         }
 
