@@ -1,8 +1,5 @@
 package instanceOf.domain;
 
-import sobreescritura.domain.*;
-
-
 public class Gerente extends Empleado {
     
     private String departamento;
@@ -15,6 +12,14 @@ public class Gerente extends Empleado {
     @Override
     public String obtenerDetalles(){
         return super.obtenerDetalles() + ", departamento:" + this.departamento;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
     }
     
 }

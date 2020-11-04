@@ -1,8 +1,5 @@
 package instanceOf.domain;
 
-import sobreescritura.domain.*;
-
-
 public class Empleado {
     protected String nombre;
     protected double sueldo;
