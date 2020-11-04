@@ -10,12 +10,11 @@ public class test {
     public static void main(String[] args) {
         
         Empleado empleado=new Empleado("Juan",500);//padre
-        //System.out.println("empleado = " + empleado.obtenerDetalles());
-        test.imprimir(empleado);
+       test.imprimir(empleado);
      
-        Gerente gerente=new Gerente("Juan",1000,"Tecnologia");//hijo
-        //System.out.println("gerente = " + gerente.obtenerDetalles());
-        test.imprimir(gerente);
+        //Gerente gerente=new Gerente("Juan",1000,"Tecnologia");//hijo
+        empleado=new Gerente("Juan",1000,"Tecnologia");//hijo
+        test.imprimir(empleado);
        
     }
     
